@@ -1,0 +1,24 @@
+development:
+ adapter: postgresql
+ encoding: utf8
+ database: BabyMarket
+ pool: 5
+ username: postgres
+ password: ajedrez101
+ host: localhost
+test:
+ adapter: postgresql
+ encoding: utf8
+ database: BabyMarket
+ pool: 5
+ username: postgres
+ password: ajedrez101
+ host: localhost
+production:
+ adapter: postgresql
+ encoding: utf8
+ database: BabyMarket
+ pool: 5
+ username: postgres
+ password: ajedrez101
+ host: localhost
