@@ -22,3 +22,4 @@ class V1::AdduserController < ApplicationController
 		params.require(:adduser).permit(:id_user, :first_name, :laste_name, :email, :mobilephone, :alias, :pass, :descrip, :street, :home_number, :colony, :city, :state, :country, :postal_code)
 	end
 end
+ 
